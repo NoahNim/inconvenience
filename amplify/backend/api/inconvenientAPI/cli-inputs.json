@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/inconvenience/api": {
+      "name": "/inconvenience/api",
+      "lambdaFunction": "inconvenience420",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

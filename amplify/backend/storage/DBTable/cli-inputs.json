@@ -1,0 +1,20 @@
+{
+  "resourceName": "DBTable",
+  "tableName": "DBTable",
+  "partitionKey": {
+    "fieldName": "Items",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "sort",
+      "partitionKey": {
+        "fieldName": "Items",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": [
+    "DBTableTriggerf0e9d182"
+  ]
+}
