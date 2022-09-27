@@ -9,11 +9,22 @@
       "UnauthRoleName": "amplify-inconvenience-dev-140557-unauthRole",
       "StackName": "amplify-inconvenience-dev-140557",
       "StackId": "arn:aws:cloudformation:us-east-1:661780399411:stack/amplify-inconvenience-dev-140557/044cd960-3ddf-11ed-a7d9-121c8d736bc9",
-      "AmplifyAppId": "d4fvqf0v0tkzh"
+      "AmplifyAppId": "d4fvqf0v0tkzh",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-inconvenience-dev-140557-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "undefined": {}
+      },
+      "function": {
+        "DBTableTriggerf0e9d182": {
+          "deploymentBucketName": "amplify-inconvenience-dev-140557-deployment",
+          "s3Key": "amplify-builds/DBTableTriggerf0e9d182-324752586974626f7539-build.zip"
+        },
+        "inconvenience420": {
+          "deploymentBucketName": "amplify-inconvenience-dev-140557-deployment",
+          "s3Key": "amplify-builds/inconvenience420-54555244546e77545830-build.zip"
+        }
       }
     }
   }
